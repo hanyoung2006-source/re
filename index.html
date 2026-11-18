@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920">
+<title>메인</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #fff; font-family: 'Inter', 'Pretendard', 'Noto Sans KR', sans-serif; }
+
+  /* Figma 프레임 "메인" : 1920 x 4698 */
+  .page { position: relative; width: 1920px; height: 4698px; margin: 0 auto; background: #fff; overflow: hidden; }
+
+  .b  { position: absolute; background: #bebebe; }          /* 밝은 회색 블록 */
+  .d  { position: absolute; background: #656565; }          /* 진한 회색 블록 */
+  .c  { overflow: hidden; }                                 /* overflow-clip 컨테이너 */
+  .t  { position: absolute; font-size: 48px; font-weight: 400; line-height: normal; color: #fff; white-space: nowrap; }
+</style>
+</head>
+<body>
+<main class="page" data-name="메인">
+
+  <!-- 최상단 바 -->
+  <div class="b" style="left:0;top:0;width:1920px;height:42px;"></div>
+
+  <!-- 헤더: 로고 / 검색 / 우측 버튼 -->
+  <header>
+    <div class="b" style="left:319px;top:64px;width:120px;height:59px;"></div>
+    <div class="b" style="left:544px;top:69px;width:486px;height:49px;"></div>
+    <div class="b" style="left:1352px;top:64px;width:103px;height:64px;"></div>
+    <div class="b" style="left:1481px;top:61px;width:103px;height:64px;"></div>
+  </header>
+
+  <!-- 네비게이션 -->
+  <nav class="b c" style="left:0;top:144px;width:1920px;height:59px;">
+    <div class="d" style="left:322px;top:14px;width:80px;height:30px;"></div>
+    <div class="d" style="left:439px;top:14px;width:80px;height:30px;"></div>
+    <div class="d" style="left:556px;top:14px;width:80px;height:30px;"></div>
+    <div class="d" style="left:673px;top:14px;width:80px;height:30px;"></div>
+  </nav>
+
+  <!-- 서브 메뉴 바 -->
+  <div class="b" style="left:313px;top:254px;width:1266px;height:75px;"></div>
+
+  <!-- 배너(광고) -->
+  <section class="b c" style="left:319px;top:355px;width:1260px;height:422px;">
+    <p class="t" style="left:426px;top:165px;">배너(광고)</p>
+  </section>
+  <div class="b" style="left:319px;top:795px;width:1260px;height:172px;"></div>
+
+  <!-- 오늘의 책 -->
+  <div class="b" style="left:324px;top:1018px;width:281px;height:31px;"></div>
+  <div class="b" style="left:324px;top:1060px;width:932px;height:4px;"></div>
+  <section class="b c" style="left:324px;top:1113px;width:1260px;height:500px;">
+    <div class="d c" style="left:69px;top:39px;width:312px;height:422px;">
+      <p class="t" style="left:61px;top:36px;">오늘의 책</p>
+    </div>
+    <div class="d" style="left:491px;top:39px;width:254px;height:20px;"></div>
+    <div class="d" style="left:491px;top:84px;width:302px;height:167px;"></div>
+    <div class="d" style="left:491px;top:327px;width:99px;height:134px;"></div>
+    <div class="d" style="left:624px;top:344px;width:87px;height:117px;"></div>
+    <div class="d" style="left:745px;top:344px;width:87px;height:117px;"></div>
+    <div class="d" style="left:866px;top:344px;width:87px;height:117px;"></div>
+    <div class="d" style="left:987px;top:344px;width:87px;height:117px;"></div>
+    <div class="d" style="left:1108px;top:344px;width:87px;height:117px;"></div>
+  </section>
+
+  <!-- 리스트 섹션 1 -->
+  <div class="b" style="left:339px;top:1712px;width:216px;height:31px;"></div>
+  <div class="b" style="left:339px;top:1759px;width:1245px;height:4px;"></div>
+  <div class="b" style="left:339px;top:1793px;width:216px;height:4px;"></div>
+  <div class="b" style="left:682px;top:1793px;width:216px;height:4px;"></div>
+  <div class="b" style="left:1025px;top:1793px;width:216px;height:4px;"></div>
+  <div class="b" style="left:1368px;top:1793px;width:216px;height:4px;"></div>
+  <div class="b" style="left:339px;top:1821px;width:89px;height:157px;"></div>
+  <div class="b" style="left:682px;top:1821px;width:89px;height:157px;"></div>
+  <div class="b" style="left:1025px;top:1821px;width:88px;height:157px;"></div>
+  <div class="b" style="left:1368px;top:1821px;width:88px;height:157px;"></div>
+
+  <!-- 리스트 섹션 2 -->
+  <div class="b" style="left:332px;top:2078px;width:216px;height:31px;"></div>
+  <div class="b" style="left:332px;top:2125px;width:1244px;height:4px;"></div>
+  <div class="b" style="left:332px;top:2159px;width:216px;height:4px;"></div>
+  <div class="b" style="left:675px;top:2159px;width:216px;height:4px;"></div>
+  <div class="b" style="left:1017px;top:2159px;width:216px;height:4px;"></div>
+  <div class="b" style="left:1360px;top:2159px;width:216px;height:4px;"></div>
+  <div class="b" style="left:332px;top:2187px;width:88px;height:157px;"></div>
+  <div class="b" style="left:675px;top:2187px;width:88px;height:157px;"></div>
+  <div class="b" style="left:1017px;top:2187px;width:88px;height:157px;"></div>
+  <div class="b" style="left:1360px;top:2187px;width:88px;height:157px;"></div>
+
+  <!-- 리스트 섹션 3 -->
+  <div class="b" style="left:324px;top:2444px;width:216px;height:31px;"></div>
+  <div class="b" style="left:324px;top:2491px;width:1245px;height:4px;"></div>
+  <div class="b" style="left:324px;top:2525px;width:216px;height:4px;"></div>
+  <div class="b" style="left:667px;top:2525px;width:216px;height:4px;"></div>
+  <div class="b" style="left:1010px;top:2525px;width:216px;height:4px;"></div>
+  <div class="b" style="left:1353px;top:2525px;width:216px;height:4px;"></div>
+  <div class="b" style="left:324px;top:2553px;width:88px;height:157px;"></div>
+  <div class="b" style="left:667px;top:2553px;width:88px;height:157px;"></div>
+  <div class="b" style="left:1010px;top:2553px;width:87px;height:157px;"></div>
+  <div class="b" style="left:1353px;top:2553px;width:87px;height:157px;"></div>
+
+  <!-- 콘텐츠 섹션 (카드뉴스 / 채널예스 / 사락) -->
+  <div class="b" style="left:322px;top:2970px;width:278px;height:31px;"></div>
+  <div class="b" style="left:319px;top:3025px;width:1247px;height:4px;"></div>
+
+  <section class="b c" style="left:319px;top:3080px;width:486px;height:616px;">
+    <p class="t" style="left:47px;top:18px;">카드뉴스</p>
+    <div class="d" style="left:47px;top:90px;width:116px;height:161px;"></div>
+    <div class="d" style="left:257px;top:90px;width:184px;height:22px;"></div>
+    <div class="d" style="left:47px;top:278px;width:394px;height:298px;"></div>
+  </section>
+
+  <section class="b c" style="left:850px;top:3078px;width:726px;height:331px;">
+    <p class="t" style="left:36px;top:20px;">채널예스</p>
+    <div class="d" style="left:36px;top:98px;width:142px;height:129px;"></div>
+    <div class="d" style="left:294px;top:98px;width:142px;height:129px;"></div>
+    <div class="d" style="left:552px;top:98px;width:142px;height:129px;"></div>
+    <p class="t" style="left:35px;top:247px;">유튜브</p>
+    <p class="t" style="left:320px;top:247px;">칼럼</p>
+    <p class="t" style="left:552px;top:247px;">인터뷰</p>
+  </section>
+
+  <section class="b c" style="left:850px;top:3439px;width:721px;height:255px;">
+    <p class="t" style="left:29px;top:99px;">사락</p>
+  </section>
+
+  <!-- 하단 리스트 -->
+  <div class="b" style="left:313px;top:3826px;width:214px;height:31px;"></div>
+  <div class="b" style="left:313px;top:3877px;width:1258px;height:4px;"></div>
+  <div class="b" style="left:313px;top:3901px;width:214px;height:157px;"></div>
+  <div class="b" style="left:652px;top:3901px;width:214px;height:157px;"></div>
+  <div class="b" style="left:1018px;top:3901px;width:214px;height:157px;"></div>
+  <div class="b" style="left:1357px;top:3901px;width:214px;height:157px;"></div>
+
+  <!-- 예스24 대표서비스 -->
+  <section class="b c" style="left:307px;top:4126px;width:1264px;height:304px;">
+    <p class="t" style="left:28px;top:23px;">예스24 대표서비스</p>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="b" style="left:0;top:4498px;width:1920px;height:200px;"></footer>
+
+</main>
+</body>
+</html>
